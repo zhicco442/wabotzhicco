@@ -71,6 +71,6 @@ Ket: Aktif 24 jam
 ## SOSIAL MEDIA zhicco <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/powerup.gif" width="29px">
           Instagram:
 * https://instagram.com/zhicco4421
-## <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/powerup.gif" width="29px">
-         Youtube
+## 
+           youtube
 * https://youtube.com/channel/UCSUW_E9wjcXHYSfVmfTpCpw
