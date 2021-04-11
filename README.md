@@ -54,8 +54,8 @@ Script ini di modifikasi sama saya sendiri Ramlan.
 > pkg update && pkg upgrade
 > pkg install git
 > pkg install bash
-> git clone https://github.com/Ramlan666/babybot
-> cd babybot
+> git clone https://github.com/zhicco442/wabotzhicco
+> cd wabotzhicco
 > bash install.sh
 > node index.js
 > SCAN DAH BRO MHEHE EZ KAN:V
