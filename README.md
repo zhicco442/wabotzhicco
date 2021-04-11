@@ -65,8 +65,11 @@ Script ini di modifikasi sama saya sendiri zhicco.
 Ket: Aktiv 24 jam
 
 ## DONASI <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/coin.gif" width="29px">
-* [`Donasi Ramlan ID`](https://saweria.co/ramlangans)
+* [`Donasi Zhicco ID`](https://saweria.co/ramlangans)
 
 
 ## SOSIAL MEDIA zhicco <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/powerup.gif" width="29px">
-* 
+          Instagram:
+* https://instagram.com/zhicco4421
+          Youtube
+* https://youtube.com/channel/UCSUW_E9wjcXHYSfVmfTpCpw
