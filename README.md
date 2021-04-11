@@ -62,7 +62,7 @@ Script ini di modifikasi sama saya sendiri zhicco.
 ```
 
 
-Ket: Aktiv 24 jam
+Ket: Aktif 24 jam
 
 ## DONASI <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/coin.gif" width="29px">
 * [`Donasi Zhicco ID`](https://saweria.co/ramlangans)
