@@ -1,9 +1,6 @@
-/*
+
 ]=====> zhicco <=====[ ]=====> YT Mercy offivial ID <=====[ ]=====> 081212814187 <=====[
-*/
-// ANAK ANJING PASTI YANG ATAS DI UBAH
-// NGOTAK KONSOL
-// NUMPANG NAMA TIDAK MEMBUAT MU PRO
+
 const {
    WAConnection,
    MessageType,
@@ -18,6 +15,9 @@ const {
    waChatKey,
    mentionedJid,
    processTime,
+   antilinkgrup
+   antikick
+   antieror
 } = require("@adiwajshing/baileys")
 const qrcode = require("qrcode-terminal") 
 const moment = require("moment-timezone") 
@@ -41,18 +41,17 @@ const cd = 4.32e+7
 const { nad } = require('./language')
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:RAMLAN ID\n' // GANTI NAMA LU
-            + 'ORG:OWNER BOTZ;\n'
+            + 'FN:zhicco ID\n' // zhicco
+            + 'ORG:zhicco BOTZ;\n'
             + 'TEL;type=CELL;type=VOICE;waid=081212814187:+62 81212814187\n' // 08119255345
             + 'END:VCARD'
-// UDAH SEGITU KONSOL KEBAWAH BIARIN AJA
-const ngonsol = JSON.parse(fs.readFileSync('./settings/Ramlan.json'))
+const ngonsol = JSON.parse(fs.readFileSync('./settings/zhicco.json'))
 const {
     botName,zhicco
     ownerName,zhicco,bot
     XteamKey,
-    ownerNumber,081211814187
-    botPrefix,
+    ownerNumber,081212814187
+    botPrefix,100
     GrupLimitz,10000
     UserLimitz,1000
     CeerTod
@@ -60,8 +59,8 @@ const {
 // POWERED BY MR.CHAINNER ID
 prefix = botPrefix
 blocked = []   
-limitawal = UserLimitz
-memberlimit = GrupLimitz
+limitawal = 100000000000
+memberlimit = 1000000000
 cr = CeerTod
 
 // LOAD JSON
@@ -353,7 +352,7 @@ baby.on('group-participants-update', async (anu) => {
             const groupAdmins = isGroup ? getGroupAdmins(groupMembers) : ''
             
 /*
-]=====> RAMLAN ID <=====[
+]=====> Mr.chainner ID <=====[
 */
             const isEventon = isGroup ? event.includes(from) : false
             const isRegistered = checkRegisteredUser(sender)
@@ -456,7 +455,7 @@ baby.on('group-participants-update', async (anu) => {
             }
         }
 /*
-]=====> CHECK LIMIT BY LANN ID <=====[
+]=====> CHECK LIMIT BY zhicco ID <=====[
 */
           const checkLimit = (sender) => {
           	let found = false
@@ -477,7 +476,7 @@ baby.on('group-participants-update', async (anu) => {
 				}
 
 /*
-]=====> LIMITED BY LANN ID <=====[
+]=====> LIMITED BY zhicco ID <=====[
 */
            const isLimit = (sender) =>{ 
 		      let position = false
@@ -700,7 +699,7 @@ switch(command) {
 					break
                 case 'makermenu':
                 if (isBanned) return reply(nad.baned())
-				if (!isRegistered) return reply(nad.noregis())			
+				if (!isRegstered) return reply(nad.noregis())			
 					await costum(maker(pushname, prefix, botName, ownerName, getLevelingLevel, sender, _registered), text, tescuk, cr)
 					break
                 case 'othermenu':
@@ -894,7 +893,7 @@ switch(command) {
 					var gh = body.slice(12)
 					var gli = gh.split("&")[0];
 					var tch = gh.split("&")[1];
-					if (args.length < 1) return reply(`「❗」Contoh : ${prefix}glitchtext Ramlan & Gans`)
+					if (args.length < 1) return reply(`「❗」Contoh : ${prefix}glitchtext zhicco & Gans`)
 					reply(nad.wait())
 					buffer = await getBuffer(`https://api.zeks.xyz/api/gtext?text1=${gli}&text2=${tch}&apikey=apivinz`)
 					baby.sendMessage(from, buffer, image, {quoted: mek})
@@ -2452,10 +2451,10 @@ await limitAdd(sender)
 break														
 /*
 ]=====> Ingfo <=====[
-Author : Ramlan
-Recode by : Nama lu
+Author : Mr.chainner
+Recode by : zhicco
 ]=====> TQTO <=====[
-Ramlan ID
+zhicco ID
 MrG3P5
 Nafiz
 Revoer ID
@@ -2466,7 +2465,7 @@ Vhtear
 Tobz
 All BOT WE A
 All Creator Bot WhatsApp
-Credits : BABY BOT
+Credits : wabotzhicco
 =======================
 Note : Ingat bro menghapus Author, ThanksTo, Credits. Itu sama aja kau Nyampah doang :v
 */			                     default:
