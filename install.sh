@@ -12,7 +12,4 @@ wget -O ~/../usr/share/tessdata/ind.traineddata "https://github.com/tesseract-oc
 npm install
 npm audit fix
 
-echo "[*] SUKSES BRO SILAHKAN KETIK \"node index.js\" Powered by zhicco ID"
-
-echo "subscribe aing dulu"
-link:https://youtube.com/channel/UCSUW_E9wjcXHYSfVmfTpCpw
+echo "[*] SUKSES BRO SILAHKAN KETIK \"node index.js\" Powered by Ramlan ID"
