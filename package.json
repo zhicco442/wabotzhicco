@@ -25,7 +25,7 @@
   "bugs": {
     "url": "https://github.com/zhicco442/issues"
   },
-  "homepage": "https://github.com/zhicco442/wabotzhicco#readme",
+  "homepage": "https://github.com/zhicco442/wabotzhicco/#readme",
   "dependencies": {
     "@adiwajshing/baileys": "^3.4.1",
     "axios": "^0.21.1",
