@@ -1,9 +1,6 @@
-/*
-]=====> Zhicco <=====[ ]=====> YT Mercy official <=====[ ]=====> 081212814187 <=====[
-*/
-// ANAK ANJING PASTI YANG ATAS DI UBAH
-// NGOTAK KONSOL
-// NUMPANG NAMA TIDAK MEMBUAT MU PRO
+
+]=====> zhicco <=====[ ]=====> YT Mercy offivial ID <=====[ ]=====> 081212814187 <=====[
+
 const {
    WAConnection,
    MessageType,
@@ -16,9 +13,11 @@ const {
    ProxyAgent,
    GroupSettingChange,
    waChatKey,
-   antikick,
    mentionedJid,
    processTime,
+   antilinkgrup
+   antikick
+   antieror
 } = require("@adiwajshing/baileys")
 const qrcode = require("qrcode-terminal") 
 const moment = require("moment-timezone") 
@@ -43,26 +42,25 @@ const { nad } = require('./language')
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
             + 'FN:zhicco ID\n' // zhicco
-            + 'ORG:OWNER BOTZ;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=6285559240360:+62 855-5924-0360\n' // GANTI NOMOR LU
+            + 'ORG:zhicco BOTZ;\n'
+            + 'TEL;type=CELL;type=VOICE;waid=081212814187:+62 81212814187\n' // 08119255345
             + 'END:VCARD'
-// UDAH SEGITU KONSOL KEBAWAH BIARIN AJA
-const ngonsol = JSON.parse(fs.readFileSync('./settings/Ramlan.json'))
+const ngonsol = JSON.parse(fs.readFileSync('./settings/zhicco.json'))
 const {
-    botName,zhicco bot
-    ownerName,zhicco
+    botName,zhicco
+    ownerName,zhicco,bot
     XteamKey,
     ownerNumber,081212814187
-    botPrefix,
-    GrupLimitz,100
-    UserLimitz,100
+    botPrefix,100
+    GrupLimitz,10000
+    UserLimitz,1000
     CeerTod
 } = ngonsol
-// POWERED zhicco ID
+// POWERED BY MR.CHAINNER ID
 prefix = botPrefix
 blocked = []   
-limitawal = UserLimitz
-memberlimit = GrupLimitz
+limitawal = 100000000000
+memberlimit = 1000000000
 cr = CeerTod
 
 // LOAD JSON
@@ -354,7 +352,7 @@ baby.on('group-participants-update', async (anu) => {
             const groupAdmins = isGroup ? getGroupAdmins(groupMembers) : ''
             
 /*
-]=====> zhicco ID <=====[
+]=====> Mr.chainner ID <=====[
 */
             const isEventon = isGroup ? event.includes(from) : false
             const isRegistered = checkRegisteredUser(sender)
@@ -701,7 +699,7 @@ switch(command) {
 					break
                 case 'makermenu':
                 if (isBanned) return reply(nad.baned())
-				if (!isRegistered) return reply(nad.noregis())			
+				if (!isRegstered) return reply(nad.noregis())			
 					await costum(maker(pushname, prefix, botName, ownerName, getLevelingLevel, sender, _registered), text, tescuk, cr)
 					break
                 case 'othermenu':
@@ -895,7 +893,7 @@ switch(command) {
 					var gh = body.slice(12)
 					var gli = gh.split("&")[0];
 					var tch = gh.split("&")[1];
-					if (args.length < 1) return reply(`「❗」Contoh : ${prefix}glitchtext Ramlan & Gans`)
+					if (args.length < 1) return reply(`「❗」Contoh : ${prefix}glitchtext zhicco & Gans`)
 					reply(nad.wait())
 					buffer = await getBuffer(`https://api.zeks.xyz/api/gtext?text1=${gli}&text2=${tch}&apikey=apivinz`)
 					baby.sendMessage(from, buffer, image, {quoted: mek})
@@ -2453,10 +2451,10 @@ await limitAdd(sender)
 break														
 /*
 ]=====> Ingfo <=====[
-Author : zhicco
+Author : Mr.chainner
 Recode by : zhicco
 ]=====> TQTO <=====[
-Ramlan ID
+zhicco ID
 MrG3P5
 Nafiz
 Revoer ID
