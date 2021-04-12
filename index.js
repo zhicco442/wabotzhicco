@@ -2467,7 +2467,7 @@ All BOT WE A
 All Creator Bot WhatsApp
 Credits : wabotzhicco
 =======================
-Note : Ingat bro menghapus Author, ThanksTo, Credits. Itu sama aja kau Nyampah doang :v
+
 */			                     default:
                   if (budy == 'cekprefix') {
                   reply(`*${botName} MENGGUNAKAN PREFIX :「 ${prefix} 」*`)
