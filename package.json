@@ -1,5 +1,5 @@
 {
-  "name": "zhicco",
+  "name": "Zhicco bot",
   "version": "2.0.0",
   "description": "script bot whatsapp termux",
   "main": "index.js",
@@ -25,7 +25,7 @@
   "bugs": {
     "url": "https://github.com/zhicco442/issues"
   },
-  "homepage": "https://github.com/Ramlan666/babybot#readme",
+  "homepage": "https://github.com/zhicco442/wabotzhicco#readme",
   "dependencies": {
     "@adiwajshing/baileys": "^3.4.1",
     "axios": "^0.21.1",
