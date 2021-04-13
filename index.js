@@ -263,9 +263,10 @@ function kyun(seconds){
 const baby = new WAConnection()
 baby.logger.level = 'warn'
 console.log(banner.string)
-   baby.on('qr', qr => {
+   
+   baby.on('qr', qr ,qrcode=> { (true)
    qrcode.generate(qr, { small: true })
-	console.log(color('[','white'), color('!','red'), color(']','white'), color(' SUBSCRIBE YT RAMLAN CHANNEL'))
+	console.log(color('[','white'), color('!','red'), color(']','white'), color(' SUBSCRIBE YT Mercyofficial CHANNEL'))
 })
 
 	baby.on('credentials-updated', () => {
