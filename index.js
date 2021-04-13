@@ -41,7 +41,7 @@ const cd = 4.32e+7
 const { nad } = require('./language')
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:RAMLAN ID\n' // GANTI NAMA LU
+            + 'FN:zhicco\n' // GANTI NAMA LU
             + 'ORG:OWNER BOTZ;\n'
             + 'TEL;type=CELL;type=VOICE;waid=6285559240360:+62 812-1281-4187\n' // GANTI NOMOR LU
             + 'END:VCARD'
@@ -274,10 +274,10 @@ console.log(banner.string)
 	})
 	fs.existsSync('./Ramlan.json') && baby.loadAuthInfo('./Ramlan.json')
 	baby.on('connecting', () => {
-		start('2', 'Ramlan Connecting...')
+		start('2', 'zhicco Connecting...')
 	})
 	baby.on('open', () => {
-		success('2', 'Ramlan Connected')
+		success('2', 'zhicco Connected')
 	})
 	baby.connect({timeoutMs: 30*1000})
 
