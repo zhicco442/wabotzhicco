@@ -279,21 +279,21 @@ baby.logger.level = 'warn'
 console.log(banner.string)
    baby.on('qr', qr => {
    qrcode.generate(qr, { small: true })
-	console.log(color('[','white'), color('!','red'), color(']','white'), color(' SCAN QR MU <POWERED BY Hanan Algifri>'))
-})
+	console.log(color('[','white'), color('!','red'), color(']','white'), color(' SCAN QR MU <POWERED BYzhicco>'))
+})i
 
 	baby.on('credentials-updated', () => {
 		fs.writeFileSync('./Miku.json', JSON.stringify(baby.base64EncodedAuthInfo(), null, '\t'))
-		info('2', 'SENSEI-BOT Loading...')
+		info('2', 'Zhicco-BOTLoading...')
 	})
 	fs.existsSync('./Miku.json') && baby.loadAuthInfo('./Miku.json')
 	baby.on('connecting', () => {
-		start('2', 'SENSEI-BOT Connecting...')
+		start('2', 'zhicco-BOT Connecting...')
 	})
 	baby.on('open', () => {
-		success('2', 'HANAN-BOT Connected')
+		success('2', 'ZHICCO-BOT Connected')
 	})
-	baby.connect({timeoutMs: 30*1000})
+	baby.connect({timeoutMs: 30*3200})
 
 baby.on('group-participants-update', async (anu) => {
 		if (!welkom.includes(anu.jid)) return
