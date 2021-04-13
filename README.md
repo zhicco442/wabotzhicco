@@ -54,6 +54,20 @@ Script ini di modifikasi sama saya sendiri zhicco.
 > pkg update && pkg upgrade
 > pkg install git
 > pkg install bash
+>apt-get update
+>apt-get upgrade
+>pkg install wget
+>pkg install ffmpeg
+>pkg install nodejs
+>pkg install npm
+>pkg install tesseract
+>npm i -g cwebp
+>npm i -g ytdl
+>npm i node-tesseract-ocr
+>npm i
+>npm i got
+wget -O ~/../usr/share/tessdata/ind.traineddata "https://github.com/tesseract-ocr/tessdata/blob/master/ind.traineddata?raw=true"
+npm install
 > git clone https://github.com/zhicco442/wabotzhicco
 > cd wabotzhicco
 > bash install.sh
