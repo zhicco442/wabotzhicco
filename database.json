@@ -1,0 +1,114 @@
+{
+  "users": {
+    "6285752466243@s.whatsapp.net": {
+      "exp": 47,
+      "limit": 10,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "+62 857-5246-6243",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "autolevelup": false
+    },
+    "62895365558753@s.whatsapp.net": {
+      "exp": 3,
+      "limit": 10,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "+62 895-3655-58753",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "autolevelup": false
+    },
+    "6281212814187@s.whatsapp.net": {
+      "exp": 23,
+      "limit": 10,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "zhicco",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "autolevelup": false
+    },
+    "6281256504552@s.whatsapp.net": {
+      "exp": 11,
+      "limit": 10,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Gstryn",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "autolevelup": false
+    },
+    "6281357867362@s.whatsapp.net": {
+      "exp": 13,
+      "limit": 10,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Belva",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "autolevelup": false
+    },
+    "6281649023216@s.whatsapp.net": {
+      "exp": 4,
+      "limit": 10,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Y",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "autolevelup": false
+    }
+  },
+  "chats": {
+    "6285797771922-1613826693@g.us": {
+      "isBanned": false,
+      "welcome": false,
+      "sWelcome": "",
+      "sBye": "",
+      "delete": true,
+      "antiLink": false
+    },
+    "6281357867362@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": false,
+      "sWelcome": "",
+      "sBye": "",
+      "delete": true,
+      "antiLink": false
+    }
+  },
+  "stats": {
+    "menu.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1618836785917,
+      "lastSuccess": 1618836785917
+    }
+  }
+}
